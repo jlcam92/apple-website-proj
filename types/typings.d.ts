@@ -8,4 +8,8 @@ declare module "utils" {
 	export const whiteImg;
 	export const yellowImg;
 	export const appleImg;
+	export const searchImg;
+	export const bagImg;
+	export const heroVideo;
+	export const smallHeroVideo;
 }

@@ -1,21 +1,7 @@
-interface HighlightSlide {
-	id: number;
-	textLists: string[];
-	video: string;
-	videoDuration: number;
-}
-
-interface PhoneModel {
-	id: number;
-	title: string;
-	color: string[];
-	img: string;
-}
-
-interface PhoneSize {
-	label: string;
-	value: string;
-}
+import { HighlightSlide } from "../../types/HighlightSlide";
+import { PhoneModel } from "../../types/PhoneModel";
+import { PhoneSize } from "../../types/PhoneSize";
+import { NavLists } from "../../types/enums";
 
 import {
 	blackImg,
@@ -28,7 +14,12 @@ import {
 	yellowImg
 } from "utils";
 
-export const navLists: string[] = ["Store", "Mac", "iPhone", "Support"];
+export const navLists: NavLists[] = [
+	NavLists.Store,
+	NavLists.Mac,
+	NavLists.Iphone,
+	NavLists.Support
+];
 
 export const hightlightsSlides: HighlightSlide[] = [
 	{
