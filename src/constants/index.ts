@@ -1,7 +1,7 @@
 import { HighlightSlide } from "../../types/HighlightSlide";
 import { PhoneModel } from "../../types/PhoneModel";
 import { PhoneSize } from "../../types/PhoneSize";
-import { NavLists } from "../../types/enums";
+import { NavLists, PhoneColors } from "../../types/enums";
 
 import {
 	blackImg,
@@ -56,25 +56,25 @@ export const models: PhoneModel[] = [
 	{
 		id: 1,
 		title: "iPhone 15 Pro in Natural Titanium",
-		color: ["#8F8A81", "#ffe7b9", "#6f6c64"],
+		color: [PhoneColors.HeatheredGray, PhoneColors.PaleOrange, PhoneColors.DimGray],
 		img: yellowImg
 	},
 	{
 		id: 2,
 		title: "iPhone 15 Pro in Blue Titanium",
-		color: ["#53596E", "#6395ff", "#21242e"],
+		color: [PhoneColors.BlueTitanium, PhoneColors.LightBlue, PhoneColors.BlackRussian],
 		img: blueImg
 	},
 	{
 		id: 3,
 		title: "iPhone 15 Pro in White Titanium",
-		color: ["#C9C8C2", "#ffffff", "#C9C8C2"],
+		color: [PhoneColors.QuillGray, PhoneColors.White, PhoneColors.QuillGray],
 		img: whiteImg
 	},
 	{
 		id: 4,
 		title: "iPhone 15 Pro in Black Titanium",
-		color: ["#454749", "#3b3b3b", "#181819"],
+		color: [PhoneColors.BlackBoudoir, PhoneColors.DarkGray2, PhoneColors.BlackPhone],
 		img: blackImg
 	}
 ];
